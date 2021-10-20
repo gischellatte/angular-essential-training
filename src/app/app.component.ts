@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'mw-app',
-  template: ''
+  selectorurl: 'mw-app',
+  template: './app.component.html'
 })
 export class AppComponent {}

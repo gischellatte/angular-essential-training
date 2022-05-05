@@ -1,0 +1,9 @@
+
+  h1{color: #ffffff;}
+  ','         
+  /*We can put in aseparate string in ur property value setter*/
+  /*Angular will make sure both style entries get used by the component*/
+  .description{
+     font-style: italic;
+     color: green;
+    }

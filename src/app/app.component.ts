@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
   /*This takes an array so we can use a JS array syntax of the double braces*/
   /*In the [] we can set up our style content via strings */
   /*Use '' to write style content on multiple lines; content: CSS*/
+    /*array of strings; supporting multiple style strings*/
   styles: ['
-  h1{color: #fff}
   '] ; 
 })
 export class AppComponent {}

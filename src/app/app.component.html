@@ -3,5 +3,8 @@
     <h1>Media Watch List</h1>
     <p class="description">Keeping track of the media I want to watch.</p>
   </header>
-  <mw-media-item></mw-media-item>
+  /*the mediaItem, which is the Input property from the MediaItemComponent, is the binding target because it is on the left of the equal sign.*/
+  /*(to the right of the = sign) The first mediaItem property from the AppComponent is the binding source*/
+  /*(on the left of the = sign) which is the Input property from the MediaItemComponent, is the binding target*/
+  <mw-media-item [mediaItem]="firstMediaItem"></mw-media-item>
 </section>
